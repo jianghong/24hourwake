@@ -43,6 +43,9 @@
 						<li><a class="jump-link" href="#participate"><strong>Participate</strong></a></li>
 						<li><a class="jump-link" href="#lead"><strong>Lead</strong></a></li>
 						<li><a class="jump-link" href="#contact"><strong>Contact Us</strong></a></li>
+						<!-- ADD NEW SECTION: This adds the section and link to the navbar -->
+						<!-- Add a new line like line 48 and change the href, and text between <strong></strong> to the new section -->
+						<li><a class="jump-link" href="#sample"><strong>Sample</strong></a></li>
 					</ul>
 				</div>
 			</div>
@@ -69,7 +72,11 @@
 		<div class="section-slide carousel slide" data-interval="false" data-ride="carousel" id="gallery">
 			<!-- Indicators -->
 			<ol class="carousel-indicators gallery-indicators">
-				<li data-target="#participate" data-slide-to="0" class="active"><p>Wake 2009</p></li>
+				<li data-target="#gallery" data-slide-to="0" class="active"><p>Wake 2009</p></li>
+				<!-- ADD NEW GALLERY: To add new gallery take line  75 and change the text between <p></p> 
+				                      and also increase the data-slide-to parameter by 1. -->
+				<!-- ADD NEW GALLERY: Next step is to add the images below -->
+				<li data-target="#gallery" data-slide-to="1"><p>Wake 2010</p></li>
 			</ol>
 			<!-- Slides -->
 			<div class="carousel-inner">
@@ -78,6 +85,7 @@
 						<div class="container">
 							<div class="col-sm-12">
 								<h1>Gallery</h1>
+								<h2>Wake 2009</h2>
 							</div>
 						</div>
 					</div>
@@ -126,11 +134,67 @@
 						</div>
 					</div>
 				</div>
+				<!-- ADD NEW GALLERY: Entire block to be used with adding images to new gallery -->
+				<div class="item">
+					<div class="row">
+						<div class="container">
+							<div class="col-sm-12">
+								<h1>Gallery</h1>
+								<h2>Wake 2010</h2>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="container">
+							<div class="col-lg-3 col-sm-4 col-xs-6">
+								<a href="img/gallery/1.jpg" data-lightbox="image-1" data-title="My caption" class="thumbnail">
+									<img class="section-image img-responsive" width="100%" src="img/gallery/1.jpg" alt="First Slide">
+								</a>
+							</div>
+							<div class="col-lg-3 col-sm-4 col-xs-6">
+								<a href="img/gallery/2.jpg" data-lightbox="image-1" data-title="My caption" class="thumbnail">
+									<img class="section-image img-responsive" width="100%" src="img/gallery/2.jpg" alt="First Slide">
+								</a>
+							</div>
+							<div class="col-lg-3 col-sm-4 col-xs-6">
+								<a href="img/gallery/3.jpg" data-lightbox="image-1" data-title="My caption" class="thumbnail">
+									<img class="section-image img-responsive" width="100%" src="img/gallery/3.jpg" alt="First Slide">
+								</a>
+							</div>
+							<div class="col-lg-3 col-sm-4 col-xs-6">
+								<a href="img/gallery/4.jpg" data-lightbox="image-1" data-title="My caption" class="thumbnail">
+									<img class="section-image img-responsive" width="100%" src="img/gallery/4.jpg" alt="First Slide">
+								</a>
+							</div>
+							<div class="col-lg-3 col-sm-4 col-xs-6">
+								<a href="img/gallery/5.jpg" data-lightbox="image-1" data-title="My caption" class="thumbnail">
+									<img class="section-image img-responsive" width="100%" src="img/gallery/5.jpg" alt="First Slide">
+								</a>
+							</div>
+							<div class="col-lg-3 col-sm-4 col-xs-6">
+								<a href="img/gallery/6.jpg" data-lightbox="image-1" data-title="My caption" class="thumbnail">
+									<img class="section-image img-responsive" width="100%" src="img/gallery/6.jpg" alt="First Slide">
+								</a>
+							</div>
+							<div class="col-lg-3 col-sm-4 col-xs-6">
+								<a href="img/gallery/7.jpg" data-lightbox="image-1" data-title="My caption" class="thumbnail">
+									<img class="section-image img-responsive" width="100%" src="img/gallery/7.jpg" alt="First Slide">
+								</a>
+							</div>
+							<div class="col-lg-3 col-sm-4 col-xs-6">
+								<a href="img/gallery/8.jpg" data-lightbox="image-1" data-title="My caption" class="thumbnail">
+									<img class="section-image img-responsive" width="100%" src="img/gallery/8.jpg" alt="First Slide">
+								</a>
+							</div>																					
+						</div>
+					</div>
+				</div>
+				<!-- ADD NEW GALLERY END -->			
 			</div>
 		</div>		
 		<!-- Gallery end -->
 		<!-- Participate start -->
-		<div class="section-slide carousel slide" data-interval="false" data-ride="carousel" id="participate">
+		<div class="section-slide carousel slide section-type-1" data-interval="false" data-ride="carousel" id="participate">
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
 				<li data-target="#participate" data-slide-to="0" class="active"><p>Reasons</p></li>
@@ -143,9 +207,16 @@
 				<div class="item active">
 					<div class="row">
 						<div class="container">
-							<div class="col-sm-6">
+							<div class="col-sm-12">
 								<h1>Participate</h1>
-								<h4>5 Reasons to Participate</h4>
+								<h4>5 Reasons to Participate</h4>								
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="container">
+							<div class="col-sm-6">
+
 								<p><b>1.</b> Help support children around the world<br>
 									- money raised from the event goes towards supporting children infected or affected by the HIV/AIDS crisis<br>
 									<b>2.</b> Learn more about HIV and AIDS<br>
@@ -202,9 +273,15 @@
 				<div class="item active">
 					<div class="row">
 						<div class="container">
-							<div class="col-sm-6">
+							<div class="col-sm-12">
 								<h1>Lead</h1>
-								<h4>School</h4>
+								<h4>School</h4>								
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="container">
+							<div class="col-sm-6">
 								<p>Organizing the 24 Hour Wake at your school is a great way to gain leadership and fundraising experience, meet new friends and leaders (like yourself!), raise awareness about HIV/AIDS, and rack up those volunteer hours. Best of all, your work will help children around the world!<br><br> 
 
 								Resources: Pledge forms, permission forms, poster. 
@@ -261,6 +338,90 @@
 			</div>
 		</div>
 		<!-- Lead end -->
+
+		<div class="section-slide carousel slide section-type-1" data-interval="false" data-ride="carousel" id="sample">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#sample" data-slide-to="0" class="active"><p>Image Text</p></li>
+				<li data-target="#sample" data-slide-to="1"><p>Bullet Points</p></li>
+			</ol>
+
+			<!-- Slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<div class="row">
+						<div class="container">
+							<div class="col-sm-12">
+								<h1>Image Text</h1>
+								<h4>Subheader</h4>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="container">
+							<div class="col-sm-6">
+								<img class="section-image" width="100%" src="img/slide1.png" alt="First Slide">
+							</div>						
+							<div class="col-sm-6">
+								<p><b>1.</b> Help support children around the world<br>
+									- money raised from the event goes towards supporting children infected or affected by the HIV/AIDS crisis<br>
+									<b>2.</b> Learn more about HIV and AIDS<br>
+									<b>3.</b> Great way to engage your family and community members in the fight against AIDS through fundraising<br>
+									<b>4.</b> Strengthen leadership, communication and fundraising skills<br>
+									<b>5.</b> It will probably be the funnest all-nighter you'll have to pull all year! 
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="container">
+							<div class="col-sm-6">
+								<p><b>1.</b> Help support children around the world<br>
+									- money raised from the event goes towards supporting children infected or affected by the HIV/AIDS crisis<br>
+									<b>2.</b> Learn more about HIV and AIDS<br>
+									<b>3.</b> Great way to engage your family and community members in the fight against AIDS through fundraising<br>
+									<b>4.</b> Strengthen leadership, communication and fundraising skills<br>
+									<b>5.</b> It will probably be the funnest all-nighter you'll have to pull all year! 
+								</p>
+							</div>
+							<div class="col-sm-6">
+								<img class="section-image" width="100%" src="img/slide1.png" alt="First Slide">
+							</div>
+						</div>
+					</div>					
+				</div>
+				<div class="item">
+					<div class="row">
+						<div class="container">
+							<div class="col-sm-6">
+								<h1>Bullet Points</h1>
+								<h4>Go here</h4>
+								<ul>
+									<li>One</li>
+									<li>Two</li>
+								</ul>
+							</div>
+							<div class="col-sm-6">
+								<img class="section-image" width="100%" src="img/slide1.png" alt="First Slide">
+							</div>							
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="row">
+						<div class="container">
+							<div class="col-sm-12">
+								<h1>Participate</h1>
+								<h4>FAQs</h4>
+								<p>Categorized FAQ section: Where do the funds go? Include videos?</p>
+							</div>
+						</div>
+					</div>					
+				</div>							
+			</div>
+		</div>
+		<!-- Participate end -->
+
 		<!-- Contact -->
 		<div id="contact">
 			<div class="row">
